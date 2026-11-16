@@ -1,6 +1,9 @@
 # Файлы данных игры (не исходный код):
-# .pp — бинарные текстуры/картинки дали, .ll — текстовые описания лабиринтов.
-# GitHub linguist считает .pp исходниками Pascal, а .ll — LLVM IR;
-# исключаем их из языковой статистики.
+# .pp/.PP — бинарные текстуры/картинки дали, .ll/.LL — текстовые описания
+# лабиринтов. GitHub linguist считает .pp исходниками Pascal, а .ll/.LL —
+# LLVM IR; исключаем их из языковой статистики (матчинг регистрозависим,
+# поэтому нужны оба регистра).
 *.pp linguist-detectable=false
+*.PP linguist-detectable=false
 *.ll linguist-detectable=false
+*.LL linguist-detectable=false
