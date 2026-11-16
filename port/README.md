@@ -7,8 +7,8 @@ MinGW-w64 (GCC), внешних зависимостей нет — только
 | Программа | Оригинал | Что это |
 |---|---|---|
 | `install/lila_install.exe` | `LILA/49i/VRS49I.C` | консольный генератор данных |
-| `vrs57/data/lila57.exe` | `LILA/57/` | «Virtual Reality Shell 0.57» — вариант с курсором/карандашом и редактором ПП1 |
-| `vrs58/data/lila58.exe` | `LILA/58/` | «Virtual Reality System 0.58» — вариант с ножом, броском, осколками и гравитацией |
+| `vrs57/data/lila57.exe` | `LILA/57/` | «Virtual Reality Shell 0.57» — вариант с курсором-пером и редактором ПП1 |
+| `vrs58/data/lila58.exe` | `LILA/58/` | «Virtual Reality System 0.58» — вариант с броском меча, осколками и гравитацией |
 
 **Готовые релизы** (exe + все файлы данных, скопировать куда угодно и запускать):
 `exe/v49i_win_1.00/`, `exe/v57_win_1.03/`, `exe/v58_win_1.03/`.
@@ -142,4 +142,4 @@ VideoShow → LastVRStask → MessageDeleter → WinFrameEnd`.
 
 Собрано на GCC 15.2.0 (i686, msvcrt), исполняется как 32-бит PE — должно
 работать на Windows 7/8/10/11 без установленных рантаймов. Проверено на
-Windows 10 x64 (окно, рендер, движение, повороты, звук через waveOut).
+Windows 8.1 и Windows 10 x64 (рендер, движение, звук через waveOut).
