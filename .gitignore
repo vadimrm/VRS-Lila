@@ -1,0 +1,38 @@
+# --- служебные папки ---
+.zcode/
+.vscode/
+.idea/
+.tmp/
+.zwork/
+node_modules/
+vendor/
+
+# --- временные файлы ---
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+
+# --- артефакты сборки порта (пересобираются build_all.bat) ---
+port/install/lila_install.exe
+port/vrs57/data/lila57.exe
+port/vrs58/data/lila58.exe
+port/**/*.o
+port/**/*.obj
+port/**/*.map
+port/**/*.orig
+port/**/*.bak_repl
+
+# --- генерируется игрой при запуске (пересоздаётся автоматически) ---
+syspal.lii
+lila_crash.log
+
+# --- отладочные дампы разработки порта ---
+pen_left.bin
+tmp_left.bin
+vram_dump.pp
+vram_after_paste.bin
+vram_after.png
+font_check*.png
+far0.png
+far1.png
